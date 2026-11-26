@@ -26,3 +26,9 @@ docs/
 
 - [Requisitos](docs/requisitos.md)
 - [Histórias de usuário](docs/historias-usuario.md)
+
+## Diagramas — Sprint 1
+
+- [Casos de uso](docs/uml/sprint-1/casos-de-uso.png)
+- [Classes](docs/uml/sprint-1/classes.png)
+- [Pacotes](docs/uml/sprint-1/pacotes.png)
