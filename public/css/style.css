@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #203244;
+  background: #f3f5f8;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px max(24px, calc((100vw - 1080px) / 2));
+  color: #fff;
+  background: #152c43;
+  font-weight: 600;
+}
+
+.marca {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #326b9a;
+  font-size: 24px;
+}
+
+main {
+  width: min(1080px, calc(100% - 48px));
+  margin: 64px auto;
+}
+
+.etiqueta {
+  color: #526c83;
+  font-size: 14px;
+}
+
+h1 {
+  margin: 8px 0;
+  font-size: clamp(30px, 5vw, 48px);
+  line-height: 1.2;
+}
+
+.descricao {
+  color: #526c83;
+  font-size: 18px;
+}
+
+.aviso {
+  max-width: 720px;
+  margin-top: 40px;
+  padding: 24px;
+  border: 1px solid #dbe2ea;
+  border-radius: 8px;
+  background: #fff;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.aviso p {
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  main {
+    margin-top: 40px;
+  }
+}
