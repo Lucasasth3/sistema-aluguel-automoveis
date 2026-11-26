@@ -21,3 +21,8 @@ public/
 docs/
   uml/
 ```
+
+## Documentação
+
+- [Requisitos](docs/requisitos.md)
+- [Histórias de usuário](docs/historias-usuario.md)
